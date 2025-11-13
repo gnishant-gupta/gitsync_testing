@@ -17,38 +17,38 @@ Python Version - 3
 #### Dependencies
 | |
 |-|
+|certifi-2025.1.31-py3-none-any.whl|
+|google_api_python_client-2.161.0-py2.py3-none-any.whl|
+|pyasn1_modules-0.4.1-py3-none-any.whl|
 |EnvironmentCommon-1.0.2-py2.py3-none-any.whl|
-|httpx-0.28.1-py3-none-any.whl|
-|pycryptodome-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
-|urllib3-2.3.0-py3-none-any.whl|
+|idna-3.10-py3-none-any.whl|
+|pyparsing-3.2.1-py3-none-any.whl|
+|protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl|
+|regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
+|filelock-3.16.1-py3-none-any.whl|
 |rsa-4.9-py3-none-any.whl|
 |tldextract-5.1.3-py3-none-any.whl|
-|sniffio-1.3.1-py3-none-any.whl|
-|cachetools-5.5.1-py3-none-any.whl|
-|TIPCommon-2.2.10-py2.py3-none-any.whl|
-|regex-2024.11.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
-|google_auth_httplib2-0.2.0-py2.py3-none-any.whl|
-|google_auth-2.38.0-py2.py3-none-any.whl|
-|filelock-3.16.1-py3-none-any.whl|
 |httplib2-0.22.0-py3-none-any.whl|
-|pyasn1_modules-0.4.1-py3-none-any.whl|
-|pyasn1-0.6.1-py3-none-any.whl|
-|idna-3.10-py3-none-any.whl|
-|protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl|
-|uritemplate-4.1.1-py2.py3-none-any.whl|
-|typing_extensions-4.12.2-py3-none-any.whl|
-|certifi-2025.1.31-py3-none-any.whl|
-|httpcore-1.0.7-py3-none-any.whl|
-|requests_file-2.1.0-py2.py3-none-any.whl|
-|proto_plus-1.26.0-py3-none-any.whl|
-|charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
-|google_api_python_client-2.161.0-py2.py3-none-any.whl|
 |requests-2.32.3-py3-none-any.whl|
-|h11-0.14.0-py3-none-any.whl|
-|pyparsing-3.2.1-py3-none-any.whl|
-|anyio-4.8.0-py3-none-any.whl|
+|charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
+|requests_file-2.1.0-py2.py3-none-any.whl|
 |googleapis_common_protos-1.67.0-py2.py3-none-any.whl|
+|pyasn1-0.6.1-py3-none-any.whl|
+|typing_extensions-4.12.2-py3-none-any.whl|
+|proto_plus-1.26.0-py3-none-any.whl|
+|h11-0.14.0-py3-none-any.whl|
+|pycryptodome-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl|
+|anyio-4.8.0-py3-none-any.whl|
+|cachetools-5.5.1-py3-none-any.whl|
+|httpx-0.28.1-py3-none-any.whl|
+|google_auth_httplib2-0.2.0-py2.py3-none-any.whl|
+|urllib3-2.3.0-py3-none-any.whl|
+|uritemplate-4.1.1-py2.py3-none-any.whl|
+|sniffio-1.3.1-py3-none-any.whl|
 |google_api_core-2.24.1-py3-none-any.whl|
+|httpcore-1.0.7-py3-none-any.whl|
+|google_auth-2.38.0-py2.py3-none-any.whl|
+|TIPCommon-2.2.10-py2.py3-none-any.whl|
 
 
 ## Actions
@@ -264,10 +264,10 @@ Timeout - 600 Seconds
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
-|Filter Value|Specify what value should be used in the filter. If “Equal“ is selected, action will try to find the exact match among results and if “Contains“ is selected, action will try to find results that contain that substring. “Equal” works with “title” parameter, while “Contains” works with all values in response. If nothing is provided in this parameter, the filter will not be applied.|False|String||
-|Expanded Details|If enabled, action will return detailed information about the reference lists.|False|Boolean||
 |Filter Key|Specify the key that needs to be used to filter reference lists. Name option refers to a display name of the reference list.|False|List|Select One|
 |Filter Logic|Specify what filter logic should be applied.|False|List|Equal|
+|Filter Value|Specify what value should be used in the filter. If “Equal“ is selected, action will try to find the exact match among results and if “Contains“ is selected, action will try to find results that contain that substring. “Equal” works with “title” parameter, while “Contains” works with all values in response. If nothing is provided in this parameter, the filter will not be applied.|False|String||
+|Expanded Details|If enabled, action will return detailed information about the reference lists.|False|Boolean||
 |Max Reference Lists To Return|Specify how many reference lists to return. Default: 100.|False|String|100|
 
 
@@ -293,6 +293,48 @@ Timeout - 600 Seconds
 ##### JSON Results
 ```json
 {"name": "projects/xxxx/locations/us/instances/yyyy/rules/ru_7d66bc00-7164-4c56-bb6a-66f19524983c", "revisionId": "v_1733917896_973567000", "displayName": "Test_rule_SingleEvent", "text": "rule Test_rule_SingleEvent {\n  // This rule matches single events. Rules can also match multiple events within\n  // some time window. For details about how to write a multi-event rule, see\n  // https://cloud.google.com/chronicle/docs/detection/yara-l-2-0-overview#single-event_versus_multi-event\n\n  meta:\n    // Allows for storage of arbitrary key-value pairs of rule details - who\n    // wrote it, what it detects on, version control, etc.\n    // The \"author\" and \"severity\" fields are special, as they are used as\n    // columns on the rules dashboard. If you'd like to be able to sort based on\n    // these fields on the dashboard, make sure to add them here.\n    // Severity value, by convention, should be \"Low\", \"Medium\" or \"High\"\n    author = \"bhusingh\"\n    description = \"windowed single event example rule\"\n    //severity = \"Medium\"\n\n  events:\n    $e.metadata.event_type = \"USER_LOGIN\"\n    $e.principal.user.userid = $user\n\n  //outcome:\n    // For a multi-event rule an aggregation function is required\n    // e.g., risk_score = max(0)\n    // See https://cloud.google.com/chronicle/docs/detection/yara-l-2-0-overview#outcome_conditionals_example_rule\n    //$risk_score = 0\n  match:\n    $user over 1m\n\n  condition:\n    #e > 0\n}\n", "author": "bhusingh", "metadata": {"author": "bhusingh", "description": "windowed single event example rule", "severity": null}, "createTime": "2024-12-11T11:36:18.192127Z", "revisionCreateTime": "2024-12-11T11:51:36.973567Z", "compilationState": "SUCCEEDED", "type": "SINGLE_EVENT", "allowedRunFrequencies": ["LIVE", "HOURLY", "DAILY"], "etag": "CMj55boGEJjondAD", "ruleId": "ru_7d66bc00-7164-4c56-bb6a-66f19524983c", "versionId": "ru_7d66bc00-7164-4c56-bb6a-66f19524983c@v_1733917896_973567000", "ruleName": "Test_rule_SingleEvent", "ruleText": "rule Test_rule_SingleEvent {\n  // This rule matches single events. Rules can also match multiple events within\n  // some time window. For details about how to write a multi-event rule, see\n  // https://cloud.google.com/chronicle/docs/detection/yara-l-2-0-overview#single-event_versus_multi-event\n\n  meta:\n    // Allows for storage of arbitrary key-value pairs of rule details - who\n    // wrote it, what it detects on, version control, etc.\n    // The \"author\" and \"severity\" fields are special, as they are used as\n    // columns on the rules dashboard. If you'd like to be able to sort based on\n    // these fields on the dashboard, make sure to add them here.\n    // Severity value, by convention, should be \"Low\", \"Medium\" or \"High\"\n    author = \"bhusingh\"\n    description = \"windowed single event example rule\"\n    //severity = \"Medium\"\n\n  events:\n    $e.metadata.event_type = \"USER_LOGIN\"\n    $e.principal.user.userid = $user\n\n  //outcome:\n    // For a multi-event rule an aggregation function is required\n    // e.g., risk_score = max(0)\n    // See https://cloud.google.com/chronicle/docs/detection/yara-l-2-0-overview#outcome_conditionals_example_rule\n    //$risk_score = 0\n  match:\n    $user over 1m\n\n  condition:\n    #e > 0\n}\n", "ruleType": "SINGLE_EVENT", "versionCreateTime": "2024-12-11T11:51:36.973567Z"}
+```
+
+
+
+#### Is Value In Data Table
+Check, if provided values are found in the data table in Google SecOps. Note: this action only works with Chronicle API authentication. Backstory API is not supported.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Data Table Name|Specify the display name of the data table that needs to be updated.|True|String||
+|Column|Specify a comma-separated list of columns that need to be searched within the data table. If nothing is provided, action will search within all columns.|False|String||
+|Values|Specify a comma-separated list of values that need to be searched inside the data table.|True|String||
+|Case Insensitive Search|If enabled, action will perform case insensitive matching.|False|Boolean|true|
+|Max Data Table Rows To Return|Specify how many data table rows to return per value that was matched. Maximum: 1000.|True|String|1000|
+
+
+
+##### JSON Results
+```json
+[{"Entity": "xxxx", "EntityResult": {"is_found": true, "matched_rows": [{"name": "xxxx", "values": "xxxx", "createTime": "xxxx", "updateTime": "xxxx"}]}}]
+```
+
+
+
+#### Is Value In Reference List
+Check, if provided values are found in reference lists in Google Chronicle.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Reference List Names|Specify a comma-separated list of display names of the reference list that needs to be searched.|True|String||
+|Values|Specify a comma-separated list of values that need to be searched in reference lists.|True|String||
+|Case Insensitive Search|If enabled, action will perform case insensitive matching.|False|Boolean|true|
+
+
+
+##### JSON Results
+```json
+[{"Entity": "domain.com", "EntityResult": {"found_in": [], "not_found_in": "testList", "overall_status": "not found"}}]
 ```
 
 
@@ -422,48 +464,6 @@ Timeout - 600 Seconds
 ##### JSON Results
 ```json
 {"name": "projects/xxxx/locations/us/instances/yyyy/referenceLists/testList", "displayName": "testList", "revisionCreateTime": "2025-01-16T09:15:33.753071Z", "description": "Test reference list", "entries": [{"value": "domain1.com"}], "syntaxType": "REFERENCE_LIST_SYNTAX_TYPE_PLAIN_TEXT_STRING", "scopeInfo": {"referenceListScope": {}}, "createTime": "2025-01-16T09:15:33.753071Z", "lines": ["domain1.com"]}
-```
-
-
-
-#### Is Value In Data Table
-Check, if provided values are found in the data table in Google SecOps. Note: this action only works with Chronicle API authentication. Backstory API is not supported.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Data Table Name|Specify the display name of the data table that needs to be updated.|True|String||
-|Column|Specify a comma-separated list of columns that need to be searched within the data table. If nothing is provided, action will search within all columns.|False|String||
-|Values|Specify a comma-separated list of values that need to be searched inside the data table.|True|String||
-|Case Insensitive Search|If enabled, action will perform case insensitive matching.|False|Boolean|true|
-|Max Data Table Rows To Return|Specify how many data table rows to return per value that was matched. Maximum: 1000.|True|String|1000|
-
-
-
-##### JSON Results
-```json
-[{"Entity": "xxxx", "EntityResult": {"is_found": true, "matched_rows": [{"name": "xxxx", "values": "xxxx", "createTime": "xxxx", "updateTime": "xxxx"}]}}]
-```
-
-
-
-#### Is Value In Reference List
-Check, if provided values are found in reference lists in Google Chronicle.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Reference List Names|Specify a comma-separated list of display names of the reference list that needs to be searched.|True|String||
-|Values|Specify a comma-separated list of values that need to be searched in reference lists.|True|String||
-|Case Insensitive Search|If enabled, action will perform case insensitive matching.|False|Boolean|true|
-
-
-
-##### JSON Results
-```json
-[{"Entity": "domain.com", "EntityResult": {"found_in": [], "not_found_in": "testList", "overall_status": "not found"}}]
 ```
 
 
