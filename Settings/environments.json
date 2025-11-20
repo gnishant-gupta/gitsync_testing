@@ -1,26 +1,26 @@
 [
     {
         "id": 0,
-        "name": "projects/project/locations/location/instances/instance/environments/1",
+        "name": "Default Environment",
         "description": "Default Environment",
         "contactName": null,
         "contactEmails": "",
         "contactEmailsList": null,
         "contactPhone": null,
         "allowedActions": null,
-        "remediationDurationInDays": null,
-        "shouldAllowRemediationActions": null,
-        "shouldNotifyOnRemediationActions": null,
-        "retentionDurationInMonths": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
         "retentionDurationInMonthsInternal": null,
         "base64Image": null,
-        "forDBMigration": null,
-        "environmentAllowedForAllUsers": null,
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
         "dynamicParameters": [],
-        "properties": null,
-        "isSystem": null,
-        "aliases": null,
+        "properties": {},
+        "isSystem": true,
+        "aliases": [],
         "instanceUrl": null,
-        "dataAccessScopes": null
+        "dataAccessScopes": []
     }
 ]
