@@ -7,7 +7,7 @@
         "product": "Windows:AccessDisabledAccounts",
         "eventName": "Access Disabled Accounts",
         "mappingStatus": null,
-        "changeSource": "IngestedAlert",
+        "changeSource": 1,
         "exampleEventFields": []
     }
 ]

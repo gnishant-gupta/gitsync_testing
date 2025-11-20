@@ -7,7 +7,7 @@
         "product": "DLP_Product",
         "eventName": "Data Exfiltration",
         "mappingStatus": null,
-        "changeSource": "IngestedAlert",
+        "changeSource": 1,
         "exampleEventFields": []
     },
     {
@@ -18,7 +18,7 @@
         "product": "Windows:OutOfWorkingHours",
         "eventName": "Out of working hours",
         "mappingStatus": null,
-        "changeSource": "IngestedAlert",
+        "changeSource": 1,
         "exampleEventFields": []
     },
     {
@@ -29,7 +29,7 @@
         "product": "IPS_Product",
         "eventName": "IRC Connections",
         "mappingStatus": null,
-        "changeSource": "IngestedAlert",
+        "changeSource": 1,
         "exampleEventFields": []
     },
     {
@@ -40,7 +40,7 @@
         "product": "symantec:ep:risk:file",
         "eventName": "Virus found",
         "mappingStatus": null,
-        "changeSource": "IngestedAlert",
+        "changeSource": 1,
         "exampleEventFields": []
     },
     {
@@ -51,7 +51,7 @@
         "product": "Phishing email detector",
         "eventName": "Email check",
         "mappingStatus": null,
-        "changeSource": "IngestedAlert",
+        "changeSource": 1,
         "exampleEventFields": []
     }
 ]

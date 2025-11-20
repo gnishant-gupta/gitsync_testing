@@ -7,7 +7,7 @@
         "product": "WinEventLog:Security",
         "eventName": null,
         "mappingStatus": null,
-        "changeSource": "IngestedAlert",
+        "changeSource": 1,
         "exampleEventFields": []
     }
 ]
