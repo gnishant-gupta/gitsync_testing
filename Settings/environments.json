@@ -16,7 +16,12 @@
         "base64Image": null,
         "forDBMigration": null,
         "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [],
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            }
+        ],
         "properties": null,
         "isSystem": null,
         "aliases": null,
@@ -40,7 +45,12 @@
         "base64Image": null,
         "forDBMigration": null,
         "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [],
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            }
+        ],
         "properties": null,
         "isSystem": null,
         "aliases": null,
@@ -64,7 +74,12 @@
         "base64Image": null,
         "forDBMigration": null,
         "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [],
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            }
+        ],
         "properties": null,
         "isSystem": null,
         "aliases": null,
@@ -88,7 +103,12 @@
         "base64Image": null,
         "forDBMigration": null,
         "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [],
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            }
+        ],
         "properties": null,
         "isSystem": null,
         "aliases": null,
