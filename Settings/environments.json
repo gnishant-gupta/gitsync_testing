@@ -1,153 +1,21 @@
 [
     {
         "id": 0,
-        "name": "projects/project/locations/location/instances/instance/environments/5",
-        "description": "2",
-        "contactName": null,
-        "contactEmails": "nishantg@hcltech.com",
-        "contactEmailsList": null,
-        "contactPhone": "09717982208",
-        "allowedActions": null,
-        "remediationDurationInDays": null,
-        "shouldAllowRemediationActions": null,
-        "shouldNotifyOnRemediationActions": null,
-        "retentionDurationInMonths": null,
-        "retentionDurationInMonthsInternal": null,
-        "base64Image": null,
-        "forDBMigration": null,
-        "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [
-            {
-                "key": "",
-                "value": "h"
-            },
-            {
-                "key": "",
-                "value": ""
-            }
-        ],
-        "properties": null,
-        "isSystem": null,
-        "aliases": null,
-        "instanceUrl": null,
-        "dataAccessScopes": null
-    },
-    {
-        "id": 0,
-        "name": "projects/project/locations/location/instances/instance/environments/4",
-        "description": "s",
-        "contactName": null,
-        "contactEmails": "nishantg@hcltech.com",
-        "contactEmailsList": null,
-        "contactPhone": "09717982208",
-        "allowedActions": null,
-        "remediationDurationInDays": null,
-        "shouldAllowRemediationActions": null,
-        "shouldNotifyOnRemediationActions": null,
-        "retentionDurationInMonths": null,
-        "retentionDurationInMonthsInternal": null,
-        "base64Image": null,
-        "forDBMigration": null,
-        "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [
-            {
-                "key": "",
-                "value": "h"
-            },
-            {
-                "key": "",
-                "value": ""
-            }
-        ],
-        "properties": null,
-        "isSystem": null,
-        "aliases": null,
-        "instanceUrl": null,
-        "dataAccessScopes": null
-    },
-    {
-        "id": 0,
-        "name": "projects/project/locations/location/instances/instance/environments/3",
-        "description": "w",
-        "contactName": null,
-        "contactEmails": "nishantg@hcltech.com",
-        "contactEmailsList": null,
-        "contactPhone": "09717982208",
-        "allowedActions": null,
-        "remediationDurationInDays": null,
-        "shouldAllowRemediationActions": null,
-        "shouldNotifyOnRemediationActions": null,
-        "retentionDurationInMonths": null,
-        "retentionDurationInMonthsInternal": null,
-        "base64Image": null,
-        "forDBMigration": null,
-        "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [
-            {
-                "key": "",
-                "value": "h"
-            },
-            {
-                "key": "",
-                "value": ""
-            }
-        ],
-        "properties": null,
-        "isSystem": null,
-        "aliases": null,
-        "instanceUrl": null,
-        "dataAccessScopes": null
-    },
-    {
-        "id": 0,
-        "name": "projects/project/locations/location/instances/instance/environments/2",
-        "description": "nish",
-        "contactName": null,
-        "contactEmails": "nishantg@hcltech.com",
-        "contactEmailsList": null,
-        "contactPhone": "09717982208",
-        "allowedActions": null,
-        "remediationDurationInDays": null,
-        "shouldAllowRemediationActions": null,
-        "shouldNotifyOnRemediationActions": null,
-        "retentionDurationInMonths": null,
-        "retentionDurationInMonthsInternal": null,
-        "base64Image": null,
-        "forDBMigration": null,
-        "environmentAllowedForAllUsers": null,
-        "dynamicParameters": [
-            {
-                "key": "",
-                "value": "h"
-            },
-            {
-                "key": "",
-                "value": ""
-            }
-        ],
-        "properties": null,
-        "isSystem": null,
-        "aliases": null,
-        "instanceUrl": null,
-        "dataAccessScopes": null
-    },
-    {
-        "id": 0,
-        "name": "projects/project/locations/location/instances/instance/environments/1",
+        "name": "Default Environment",
         "description": "Default Environment",
         "contactName": null,
         "contactEmails": "",
         "contactEmailsList": null,
         "contactPhone": null,
         "allowedActions": null,
-        "remediationDurationInDays": null,
-        "shouldAllowRemediationActions": null,
-        "shouldNotifyOnRemediationActions": null,
-        "retentionDurationInMonths": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
         "retentionDurationInMonthsInternal": null,
         "base64Image": null,
-        "forDBMigration": null,
-        "environmentAllowedForAllUsers": null,
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
         "dynamicParameters": [
             {
                 "key": "",
@@ -158,10 +26,144 @@
                 "value": ""
             }
         ],
-        "properties": null,
-        "isSystem": null,
-        "aliases": null,
+        "properties": {},
+        "isSystem": true,
+        "aliases": [],
         "instanceUrl": null,
-        "dataAccessScopes": null
+        "dataAccessScopes": []
+    },
+    {
+        "id": 0,
+        "name": "nish",
+        "description": "nish",
+        "contactName": "Nishant Gupta",
+        "contactEmails": "nishantg@hcltech.com",
+        "contactEmailsList": null,
+        "contactPhone": "09717982208",
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": null,
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            },
+            {
+                "key": "",
+                "value": ""
+            }
+        ],
+        "properties": {},
+        "isSystem": false,
+        "aliases": [
+            "nish"
+        ],
+        "instanceUrl": "",
+        "dataAccessScopes": []
+    },
+    {
+        "id": 0,
+        "name": "nish1",
+        "description": "w",
+        "contactName": "Nishant Gupta",
+        "contactEmails": "nishantg@hcltech.com",
+        "contactEmailsList": null,
+        "contactPhone": "09717982208",
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": null,
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            },
+            {
+                "key": "",
+                "value": ""
+            }
+        ],
+        "properties": {},
+        "isSystem": false,
+        "aliases": [],
+        "instanceUrl": "",
+        "dataAccessScopes": []
+    },
+    {
+        "id": 0,
+        "name": "nish2",
+        "description": "2",
+        "contactName": "Nishant Gupta",
+        "contactEmails": "nishantg@hcltech.com",
+        "contactEmailsList": null,
+        "contactPhone": "09717982208",
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": null,
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            },
+            {
+                "key": "",
+                "value": ""
+            }
+        ],
+        "properties": {},
+        "isSystem": false,
+        "aliases": [],
+        "instanceUrl": "",
+        "dataAccessScopes": []
+    },
+    {
+        "id": 0,
+        "name": "nois",
+        "description": "s",
+        "contactName": "Nishant Gupta",
+        "contactEmails": "nishantg@hcltech.com",
+        "contactEmailsList": null,
+        "contactPhone": "09717982208",
+        "allowedActions": null,
+        "remediationDurationInDays": 0,
+        "shouldAllowRemediationActions": false,
+        "shouldNotifyOnRemediationActions": false,
+        "retentionDurationInMonths": 3,
+        "retentionDurationInMonthsInternal": null,
+        "base64Image": null,
+        "forDBMigration": false,
+        "environmentAllowedForAllUsers": false,
+        "dynamicParameters": [
+            {
+                "key": "",
+                "value": "h"
+            },
+            {
+                "key": "",
+                "value": ""
+            }
+        ],
+        "properties": {},
+        "isSystem": false,
+        "aliases": [],
+        "instanceUrl": "",
+        "dataAccessScopes": []
     }
 ]
