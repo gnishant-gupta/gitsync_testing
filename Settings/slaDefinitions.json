@@ -1,16 +1,1 @@
-[
-    {
-        "name": "projects/project/locations/location/instances/instance/slaDefinitions/1",
-        "id": 1,
-        "slaType": "AlertRuleGenerator",
-        "alertType": "AllAlerts",
-        "slaTypeValue": "",
-        "slaPeriod": 5.0,
-        "slaPeriodTimeUnit": "Minutes",
-        "criticalSlaPeriod": 3.0,
-        "criticalSlaPeriodTimeUnit": "Minutes",
-        "environments": [
-            "*"
-        ]
-    }
-]
+[]
